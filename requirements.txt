@@ -1,0 +1,12 @@
+Click
+Flask
+itsdangerous
+Jinja2
+MarkupSafe
+Werkzeug
+flask-bootstrap
+flask-wtf
+flask-testing
+blinker
+firebase-admin
+flask-login

@@ -1,0 +1,9 @@
+{% extends 'base.html' %}
+{% import 'macros.html' as macros %}
+
+{% block title %} {{ super()}} Not found dude :( {% endblock %}
+
+{% block content %}
+  <h1>I'm so sorry, we can't found what you search. :(</h1>
+    <p>{{ error }}</p>
+{% endblock %}

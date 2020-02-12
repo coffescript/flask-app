@@ -1,0 +1,9 @@
+{% extends 'base.html' %}
+{% import 'macros.html' as macros %}
+
+{% block title %} {{ super()}} Hmmmmm... something is bad dude :( {% endblock %}
+
+{% block content %}
+  <h1>I'm so sorry, something is bad.:(</h1>
+    <p>{{ error }}</p>
+{% endblock %}
